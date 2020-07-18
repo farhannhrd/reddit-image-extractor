@@ -18,13 +18,11 @@ def main():
     username_login = input("Input your username here: ")
     password_login = input("Password here: ")
 
-    reddit = praw.Reddit(client_id='cD6CJFQWAzKoZg',
-                         client_secret='PCfzecWtNS0phaLQ7qvQVIe7Du4',
+    reddit = praw.Reddit(client_id= os.environ.get('REDDIT_CLIENT_ID'),
+                         client_secret= os.environ.get('REDDIT_CLIENT_SECRET'),
                          username=str(username_login),
                          password=str(password_login),
                          user_agent='test1')
-
-    # In[320]:
 
     subred = input("Insert Subreddit Here")
 
