@@ -15,6 +15,6 @@ Time frames can be for top x number of images by:
 
 Once successfully run, a folder will populate with the name of the specified subreddit with all of the images in .jpg format inside.
 
-Thank you for using this script.
+Thank you for using this script. I just wanted to facilitate easier downloading of images so that I could swap out my wallpapers easier.
 
 Please email any issues/bugs to farhannhrd@gmail.com
